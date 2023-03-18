@@ -31,6 +31,7 @@ on:
           - 5.10.160
           - 5.15.85
           - 6.1.1
+          - 5.15.100
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
@@ -55,7 +56,7 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-ophub"
+        default: "-shum"
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
